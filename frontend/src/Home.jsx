@@ -112,7 +112,7 @@ export default function Home() {
             <h3 className="text-lg font-bold text-center">{product.title}</h3>
             <p className="text-gray-600 text-center my-2">${product.price}</p>
             <div className="flex space-x-2">
-              <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" onClick={() => addToCart(product)}>Add to Cart</button>
+              <button className="px-4 py-2 bg-black text-white rounded-lg hover:bg-blue-700 transition" onClick={() => addToCart(product)}>Add to Cart</button>
               <FaHeart className={`cursor-pointer text-2xl ${favorites.some((fav) => fav.id === product.id) ? "text-red-500" : "text-gray-400"}`} onClick={() => toggleFavorite(product)} />
             </div>
           </motion.div>
