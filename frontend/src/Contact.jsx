@@ -18,7 +18,7 @@ export default function Contact() {
     <div className="min-h-screen bg-gray-100 text-gray-900">
       
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-16 text-center">
+      <section className="bg-black text-white py-16 text-center">
         <h1 className="text-5xl font-extrabold">Contact Us</h1>
         <p className="text-lg mt-4 max-w-2xl mx-auto">
           We’d love to hear from you! Reach out for any inquiries or support.
